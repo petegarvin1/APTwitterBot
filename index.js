@@ -1,4 +1,5 @@
 const Twit = require('twit');
+var port = process.env.PORT || 3002;
 const T = new Twit({
   consumer_key: 's3UAKG4oa5A7kmx9CumKuBr28',
   consumer_secret: 'TSkO7hIjBRzuxEaLxhqETj74mPUWYylubuhTNceBF7CNDHhXtz',
